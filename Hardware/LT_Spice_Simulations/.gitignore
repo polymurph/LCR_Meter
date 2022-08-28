@@ -1,4 +1,11 @@
+# LTSpice
+
 *.log
 *.raw
 *.fft
 *.net
+
+# Jupyter Notebooks
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
