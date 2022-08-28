@@ -1,5 +1,0 @@
-# LTSpice gitignore
-*.log
-*.raw
-*.fft
-*.net

@@ -1,4 +1,0 @@
-*.log
-*.raw
-*.fft
-*.net
