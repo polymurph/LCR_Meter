@@ -18,4 +18,76 @@ typedef enum {
     _bit_B28 = 0x2000
 }bit_t;
 
+void ad9833_init(
+    ad9833_t *device,
+    ad9833_sleepMode_t sleepMode);
+{
+    
+}
 
+void ad9833_setRefFrequency(
+    ad9833_t *device,
+    float fref);
+{
+    
+}
+
+void ad9833_reset(
+    ad9833_t *device);
+{
+
+}
+
+void ad9833_setSleepMode(
+    ad9833_t *device,
+    ad9833_sleepMode_t sleepMode);
+{
+    
+}
+
+void ad9833_setOutputSinosoidal(
+    ad9833_t *device);
+{
+    
+}
+
+void ad9833_setOutputTrangle(
+    ad9833_t *device);
+{
+    
+}
+
+void ad9833_setOutputMSBofDACData(
+    ad9833_t *device);
+
+{
+    
+}
+
+void ad9833_setFrequency0(
+    ad9833_t *device,
+    uint16_t f0);
+{
+    
+}
+
+void ad9833_setFrequency1(
+    ad9833_t *device,
+    uint16_t f1)
+{
+
+}
+
+void ad9833_setPhase0(
+    ad9833_t *device,
+    uint32_t p0)
+{
+
+}
+
+void ad9833_setPhase1(
+    ad9833_t *device,
+    uint32_t p1)
+{
+    
+}
