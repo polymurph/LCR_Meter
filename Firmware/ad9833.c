@@ -1,7 +1,3 @@
-typedef enum {
-    _reg_FREQ0 = 0x00,
-    _reg_FREQ1 = 0x00
-}reg_t;
 
 typedef enum {
     _bit_FSELECT = 0x00,
@@ -18,11 +14,28 @@ typedef enum {
     _bit_B28 = 0x2000
 }bit_t;
 
+void _writeControlRegister(ad9833_t *device, uint16_t entry)
+{
+    // mask entry to prevent writing to reserved bits
+    spiWrite16bit(device->spiCH, (entry & 0x3DEA));
+}
+
 void ad9833_init(
     ad9833_t *device,
-    ad9833_sleepMode_t sleepMode);
+    ad9833_sleepMode_t sleepMode,
+    uint16_t f0,
+    uint16_t f1,
+    uint16_t p0,
+    uint16_t p1);
 {
+    // perform init sequence according to Figure 27.
+    spiWrite16bit(device->spiCH, _bit_RESET);
+    spiWrite16bit(device->spiCH, 0);
     
+
+    // set device directly in full powerdown mode, sinosoidal output 
+    device->ctrlReg = _bit_SLEEP1 | _bit_SLEEP12;
+    spiWrite16bit(device->ctrlReg);
 }
 
 void ad9833_setRefFrequency(

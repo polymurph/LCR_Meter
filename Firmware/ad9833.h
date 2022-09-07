@@ -10,13 +10,14 @@ extern "C" {
 
 typedef struct {
     spi_ch_t *spiCH;
+    uint16_t ctrlReg;
 } ad9833_t;
 
 typedef enum{
-    INACTIVE,
-    DAC_POWERDOWN,
-    INTERNAL_CLK_DISSABLE,
-    DAC_AND_INT_CLK_DISSABLE
+    INACTIVE = 0x0000,
+    DAC_POWERDOWN = 0x0040,
+    INTERNAL_CLK_DISSABLE = 0x0080,
+    DAC_AND_INT_CLK_DISSABLE = 0x00C0
 }ad9833_sleepMode_t;
 
 /**
