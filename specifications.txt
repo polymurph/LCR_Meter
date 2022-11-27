@@ -1,0 +1,6 @@
+
+
+1pF to 100uF
+1nH to 1mH 
+
+fscan from 10Hz to 500kHz
