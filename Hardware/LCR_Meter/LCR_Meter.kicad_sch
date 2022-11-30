@@ -1,5 +1,48 @@
 (kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 02525541-7ec6-423e-af1e-84c5dade14dd)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 116.84 50.8) (size 20.32 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 846c54c0-0b85-4020-8548-82d4fa502be8)
+    (property "Sheet name" "powersupply" (id 0) (at 116.84 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "powersupply_sch.kicad_sch" (id 1) (at 116.84 78.0546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "24Vin" input (at 116.84 55.88 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 973b95dd-38b8-48c4-ae3a-8eb97180cc3a)
+    )
+    (pin "GNDin" input (at 116.84 64.77 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 3b963e13-b9f4-4300-b5e6-c03321fa5159)
+    )
+  )
+
+  (sheet (at 177.8 96.52) (size 19.05 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid d1422d36-ee99-4795-804f-b865553c7f13)
+    (property "Sheet name" "phasemeter" (id 0) (at 177.8 95.8084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "phasemeter_sch.kicad_sch" (id 1) (at 177.8 123.7746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/846c54c0-0b85-4020-8548-82d4fa502be8" (page "2"))
+    (path "/d1422d36-ee99-4795-804f-b865553c7f13" (page "3"))
+  )
 )

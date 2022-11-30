@@ -316,6 +316,19 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "02525541-7ec6-423e-af1e-84c5dade14dd",
+      ""
+    ],
+    [
+      "846c54c0-0b85-4020-8548-82d4fa502be8",
+      "powersupply"
+    ],
+    [
+      "d1422d36-ee99-4795-804f-b865553c7f13",
+      "phasemeter"
+    ]
+  ],
   "text_variables": {}
 }

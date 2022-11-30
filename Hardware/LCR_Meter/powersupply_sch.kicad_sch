@@ -1,0 +1,19 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 5a5b09ea-d716-4c29-bc29-87c3f775ddec)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "24Vin" (shape input) (at 86.36 66.04 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 66c45231-ca6b-4258-917f-1eef33c08207)
+  )
+  (hierarchical_label "GNDin" (shape input) (at 86.36 69.85 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid ae7e97a3-5d0d-458e-9606-5f0e9d594370)
+  )
+)
