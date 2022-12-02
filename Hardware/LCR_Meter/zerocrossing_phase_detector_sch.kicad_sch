@@ -1,0 +1,35 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid dffebd24-5e67-4efa-b2d1-6fcef6a3834b)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "V+" (shape input) (at 136.525 82.55 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 696d1c9e-f816-423e-b8c4-b1219392bf53)
+  )
+  (hierarchical_label "B" (shape input) (at 125.73 97.79 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 6b718806-8bce-42f1-93e4-c1935d6d1a89)
+  )
+  (hierarchical_label "A" (shape input) (at 125.73 92.71 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 97dbd281-d129-4303-92e8-9b23b1fdb0a2)
+  )
+  (hierarchical_label "GND" (shape bidirectional) (at 135.89 90.17 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid e45c17ba-59ae-4268-a5df-6154f44596c5)
+  )
+  (hierarchical_label "output" (shape output) (at 146.05 95.25 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid f6fda912-d289-4227-a20e-643b4595f353)
+  )
+  (hierarchical_label "V-" (shape output) (at 135.89 86.36 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ff3bbf35-3efa-4072-968c-7295fa1fa164)
+  )
+)

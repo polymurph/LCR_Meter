@@ -421,7 +421,7 @@
     ],
     [
       "d1422d36-ee99-4795-804f-b865553c7f13",
-      "phasemeter"
+      "zerocrossing_phase_detector"
     ],
     [
       "eb72df69-0d7b-45d1-ac9b-f5f7558dee68",
@@ -436,16 +436,12 @@
       "current_meter"
     ],
     [
-      "8df12d9a-c453-4000-8b3e-50ba529f3693",
-      "zero_crossing_detector"
-    ],
-    [
-      "a3bb4fd7-3b91-4bbb-b80c-6bf39c489490",
-      "zero_crossing_detector1"
-    ],
-    [
       "29dd1bab-44ae-4a65-8c9c-557ed5cbecff",
       "ADC"
+    ],
+    [
+      "3366fbd2-b7c6-4ccb-afdd-03c00c73e9fc",
+      "activ_rectifiers"
     ]
   ],
   "text_variables": {}
