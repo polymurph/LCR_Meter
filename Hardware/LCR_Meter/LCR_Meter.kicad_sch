@@ -758,6 +758,9 @@
     (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/df7dd165-5ad5-48b5-988d-c6c9838b4a66"
       (reference "C?") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
+    (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/eb23f819-2604-4e72-ae08-423a5f25e6e4"
+      (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
     (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/fa6ed327-7524-468a-8671-9fbb7cb3ac69"
       (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
@@ -817,6 +820,9 @@
     )
     (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/eb26807c-3046-4abc-804b-c9ca56096a90"
       (reference "R?") (unit 1) (value "1k") (footprint "Resistor_SMD:R_1206_3216Metric")
+    )
+    (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/11187340-b06f-41a6-87df-8a4ad65837a8"
+      (reference "U?") (unit 1) (value "BUF602xDBV") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/1e679181-d56a-4634-9531-2980a7e124b5"
       (reference "U?") (unit 1) (value "AD9833xRM") (footprint "Package_SO:MSOP-10_3x3mm_P0.5mm")
