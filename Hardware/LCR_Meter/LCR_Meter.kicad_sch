@@ -627,23 +627,15 @@
     )
   )
 
-  (sheet (at 120.4722 19.05) (size 31.9278 35.56)
+  (sheet (at 120.65 19.05) (size 31.75 35.56)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid eb72df69-0d7b-45d1-ac9b-f5f7558dee68)
-    (property "Sheet name" "signal_generator" (id 0) (at 120.65 16.2306 0)
+    (property "Sheet name" "signal_generator" (id 0) (at 120.8278 16.2306 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "signal_generator_sch.kicad_sch" (id 1) (at 120.65 16.2306 0)
+    (property "Sheet file" "signal_generator_sch.kicad_sch" (id 1) (at 120.8278 16.2306 0)
       (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "V+" input (at 120.4722 43.18 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 18bbab65-7f8f-4c6f-9d06-abf5d9d57aa5)
-    )
-    (pin "V-" output (at 120.4722 45.72 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid b3e02a89-d2f1-4382-b4dd-4d88d3f6059b)
     )
     (pin "out" output (at 152.4 48.26 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -657,21 +649,37 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid d2fbb805-3960-4fa1-8aee-4878a060b88b)
     )
-    (pin "SPI_CLK" input (at 120.4722 21.59 180)
+    (pin "SPI_CLK" input (at 120.65 21.59 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid cf730cd0-d0ea-4dc5-a812-cab8de8ca845)
     )
-    (pin "+3.3V" input (at 120.4722 39.37 180)
+    (pin "+3.3V" input (at 120.65 39.37 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 288f940f-54b4-413a-a793-a88d3ee24bd8)
     )
-    (pin "SPI_MOSI" input (at 120.4722 24.13 180)
+    (pin "SPI_MOSI" input (at 120.65 24.13 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid db98397c-972a-46c3-814a-d838425b1e39)
     )
-    (pin "SPI_CS" input (at 120.4722 26.67 180)
+    (pin "SPI_CH_MCP41010" input (at 120.65 26.67 180)
       (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 6160a673-ff65-4966-8e95-3e899113ccb1)
+      (uuid 9ac4d255-0e20-45c8-beaa-0a2503acb0bf)
+    )
+    (pin "SPI_CS_AD9833" input (at 120.65 29.21 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid c2c281e0-3857-470e-abd2-5bda1088ff36)
+    )
+    (pin "EN" input (at 120.65 34.29 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid a3ec9b9d-56cb-493e-bb7a-4235c524d63d)
+    )
+    (pin "+5V" input (at 120.65 41.91 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 87e2acaf-b858-41c0-84b4-f44e84af5937)
+    )
+    (pin "-5V" input (at 120.65 44.45 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 7e9e73a9-17e5-4f7a-b723-df06966df82c)
     )
   )
 
@@ -737,6 +745,12 @@
     (path "/3366fbd2-b7c6-4ccb-afdd-03c00c73e9fc/098ad0ae-aeb1-42c0-bb17-5236427ef036"
       (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
+    (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/0a5640f1-dd42-45f0-b364-47badc4302b9"
+      (reference "C?") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
+    (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/0aa9868b-bee9-4c40-94aa-538137622689"
+      (reference "C?") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
     (path "/d1422d36-ee99-4795-804f-b865553c7f13/0bd4f34c-719a-4a2f-9253-4be87b4fffea"
       (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
@@ -755,6 +769,15 @@
     (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/5cf7859d-a8eb-478e-a4ec-e37c5ea1cb2b"
       (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
+    (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/8106eac3-2af6-4db2-8949-04036a5dea66"
+      (reference "C?") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
+    (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/9110e316-bd9e-4860-8da5-00f28cb07976"
+      (reference "C?") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
+    (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/a5e08701-7c0c-42f0-b214-9921b3714492"
+      (reference "C?") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
     (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/a8d2828f-0704-4481-9cbc-38d29b2ce63b"
       (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
@@ -772,9 +795,6 @@
     )
     (path "/d1422d36-ee99-4795-804f-b865553c7f13/c7cb2033-4bc4-4f5b-9f35-08da814285af"
       (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/df7dd165-5ad5-48b5-988d-c6c9838b4a66"
-      (reference "C?") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/fa6ed327-7524-468a-8671-9fbb7cb3ac69"
       (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -796,6 +816,9 @@
     )
     (path "/ecf3ad0f-3564-485c-81c4-8006608f649d"
       (reference "J?") (unit 1) (value "H_CUR") (footprint "Connector_Coaxial:SMA_Amphenol_132291-12_Vertical")
+    )
+    (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/0ad992f0-abf4-4987-a724-64424bbd16b5"
+      (reference "R?") (unit 1) (value "0R") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/3366fbd2-b7c6-4ccb-afdd-03c00c73e9fc/0e2af59b-805c-4b81-a808-8e6d6fd50b52"
       (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_1206_3216Metric")
@@ -824,6 +847,9 @@
     (path "/3366fbd2-b7c6-4ccb-afdd-03c00c73e9fc/8b263361-451c-4ac6-a139-7bbf5308b43d"
       (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
+    (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/a28a7243-c7c9-4bd6-b759-06ffb8c52403"
+      (reference "R?") (unit 1) (value "910") (footprint "Resistor_SMD:R_1206_3216Metric")
+    )
     (path "/3366fbd2-b7c6-4ccb-afdd-03c00c73e9fc/c6ff8418-6bd5-42c2-8622-1677942dee4e"
       (reference "R?") (unit 1) (value "100") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
@@ -836,8 +862,8 @@
     (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/eb26807c-3046-4abc-804b-c9ca56096a90"
       (reference "R?") (unit 1) (value "1k") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
-    (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/072bb016-7b32-4a51-80fd-3a7aad260854"
-      (reference "U?") (unit 1) (value "AD822ARZ") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/6499cb22-393d-4410-a4e4-58593564ba36"
+      (reference "TP?") (unit 1) (value "SigGen") (footprint "")
     )
     (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/11187340-b06f-41a6-87df-8a4ad65837a8"
       (reference "U?") (unit 1) (value "BUF602xDBV") (footprint "Package_TO_SOT_SMD:SOT-23-5")
@@ -878,6 +904,9 @@
     (path "/e2f440a9-67d9-4224-8882-d211dd4eecd4/9f7b2238-f801-4778-80d0-52326fb001bf"
       (reference "U?") (unit 1) (value "AD8610") (footprint "")
     )
+    (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/d9254451-2f35-499e-85e2-1e7f92b89154"
+      (reference "U?") (unit 1) (value "AD8051ARZ") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    )
     (path "/d1422d36-ee99-4795-804f-b865553c7f13/ef7b66bf-27ef-4f3a-b6ea-10fa66aa73b8"
       (reference "U?") (unit 1) (value "ADA4860-1") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
@@ -890,10 +919,10 @@
     (path "/d1422d36-ee99-4795-804f-b865553c7f13/b969815b-8224-4c74-b1d9-d9373302641f"
       (reference "U?") (unit 2) (value "74HC74") (footprint "")
     )
-    (path "/d1422d36-ee99-4795-804f-b865553c7f13/ebbbeb47-2e32-4ad7-868f-f8c1a55c430b"
-      (reference "U?") (unit 2) (value "AD822ARZ") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/c9d4029e-bafd-4fd9-b827-a5796b9db0bc"
+      (reference "U?") (unit 2) (value "AD8051ARZ") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
-    (path "/eb72df69-0d7b-45d1-ac9b-f5f7558dee68/ef11a64a-1d9b-4745-8db1-15bc91627311"
+    (path "/d1422d36-ee99-4795-804f-b865553c7f13/ebbbeb47-2e32-4ad7-868f-f8c1a55c430b"
       (reference "U?") (unit 2) (value "AD822ARZ") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/d1422d36-ee99-4795-804f-b865553c7f13/efce3918-34c9-4b85-8730-243fb88372c8"
